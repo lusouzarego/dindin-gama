@@ -1,0 +1,393 @@
+*{
+    margin: 0%; 
+    padding: 0%;
+    @import: url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+}
+
+#logo{
+    padding: 15px 0px 15px 0px;
+}
+
+header{  
+    background-color:#2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+       }
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 30px;
+     
+}
+
+ul li a {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 45px;
+    right: 130px;
+   }
+
+
+
+.container-post{
+    padding-left: 7%;
+}
+
+.post-blog{
+   margin-left: 25%;
+   align-content: center;
+}
+
+.titulo{
+font-weight: 550;
+font-size: 50px;
+line-height: 57px;
+display: flex;
+align-items: center;
+color: #FF4081;
+width: 758px;
+height: 46px;
+margin-left: 5%;
+}
+
+.data{
+margin-left: 25%;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+color: #9D9D9D;
+margin-bottom: 3%;
+}
+
+.quad-cinza{
+    width: 1032px;
+    height: 465px;
+    left: 204px;
+    top: 381px;
+    background: #C4C4C4;  
+    margin-left: -7%;
+    margin-bottom: 4%;
+}
+
+.subtitulo{
+   color: #419488
+}
+
+.container1{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #F7F7F7;;
+}
+    
+#img-xadrez{
+    width: 288px;
+    height: 270px;
+    margin-left: 5%;
+ }
+
+.container1-item1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+   }
+
+   .container1-item2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.container1-item3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.titulo-txt-imagens{
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+color: #FF4081;
+
+}
+
+.txt-imagens{
+    margin-left: 10%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+    
+}   
+    
+.botoes{
+    width: 233px;
+    height: 51px;
+    left: 184px;
+    top: 1391px;
+    border: none;
+    background: #FF4081;
+    border-radius: 62px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 3%;
+
+}
+
+#img-arvore{
+    width: 238px;
+    height: 270px;
+
+}
+
+#img-trofeu{
+    width: 187px;
+    height: 270px;
+    
+}
+
+footer{
+    background-color:#2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    display: flex;    
+    }
+
+#logo-footer{
+    width: 280px;
+    height: 90px;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+footer li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    display: flex;
+    list-style: none;      
+    margin-top: 2%;
+    margin-left: 20%;    
+        }
+
+.botoes-footer{
+    box-sizing: border-box;
+    background: #2E948A;
+    width: 289px;
+    height: 51px;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;  
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF; 
+    margin-left: 90%;  
+    margin-top: 2%;
+    margin-bottom: 3%;       
+}
+
+#botao1{
+    margin-bottom: 1%;
+    align-items: flex-end;    
+}
+
+
+@media (max-width:850px) {
+
+    *{
+        max-width: 850px;
+    }
+
+    header{
+        max width: 850px;       
+    }
+    
+    .quad-cinza{
+        max-width: 100%;
+        margin-top: 5%;
+        margin-left: -20%;
+    }
+
+    .data{
+        margin-top: 25%;
+        margin-left: 8%;
+    }
+
+    .post-blog{
+        max-width: 70%;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20%;
+        }
+
+    .post-blog p{      
+    padding-right: 20%;
+    
+    }    
+
+    .titulo{
+        max-width: 70%;
+        display: flex;
+        flex-direction: column;
+            }
+    .container-post{
+        max-width: 850px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container1{
+        max-width: 850px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subtitulo h2{
+        max-width: 850px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50%;
+    }
+
+    .container1{
+        display: flex;
+        flex-direction: column;
+        max-width: 850px;
+        align-items: center;
+    }
+       
+    .container1-item1 img{
+        max-width: 220px;
+        height: auto;
+    }
+    
+    .container1-item2 , .container1-item3{
+        margin-left: -5%;
+    }
+    
+    .container3-geral{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+    
+    .botao-container3{
+        margin-left: -11%;
+    
+    }  
+
+
+
+
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        max-width: 850px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer li{
+        margin-left: 5%;
+    }
+    
+    .botoes-footer{
+     margin-left: 10%;
+    }
+    
+    #botao1{
+        text-align:center;
+    }
+    
+    }
+
+    @media (max-width:450px) {
+
+        *{
+            max-width: 450px;
+        }
+    
+        header{
+            max width: 450px;       
+        }
+        
+        #logo-header{
+           width: 25%;
+        }
+
+        nav ul li a{                    
+            font-size: 10px;
+            top: 5%;         
+        }
+
+        .titulo{
+            font-size: 25px;
+            line-height: normal;
+            margin-bottom: 0%;
+           
+        }
+
+        .data{
+            font-size: 12px;
+            margin-left: -5%;
+            margin-top: none;
+        }
+
+            
+        #logo-footer{
+            width: 45%;
+            height: 20%;
+        }
+
+      
+        .botoes-footer{
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            width: 100px;
+            height: 25px;        
+            font-size: 10px;
+          
+        }
+
+        #botao1{
+            display: flex;
+            align-items: center;
+            
+        }

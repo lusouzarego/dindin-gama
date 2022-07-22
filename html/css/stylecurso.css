@@ -1,0 +1,289 @@
+*{
+    margin: 0%; 
+    padding: 0%;
+    @import: url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+}
+
+#logo{
+    padding: 15px 0px 15px 0px;
+}
+
+header{  
+    background-color:#2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+       }
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 30px;
+     
+}
+
+ul li a {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 45px;
+    right: 130px;
+   }
+
+.container-xadrez{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+#img-xadrez{
+    width: 380px;
+    height: 381px;
+    margin-right: 18%;
+    
+    }
+
+.subtitulo{
+font-weight: 700;
+font-size: 55px;
+line-height: 63px;
+color: #FF4081;
+width: 512px;
+height: 126px;
+
+}
+
+.primeira{
+        display: flex;
+        flex-direction: column;
+       margin-left: 10%;
+       margin-top: 5%;
+       margin-bottom: 5%;
+}
+
+.container{
+    background-color: #F7F7F7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+   }
+
+.aula1{
+display: flex;
+flex-direction: column;
+
+
+}
+
+.aula2{
+display: flex;
+flex-direction: column;
+
+
+}
+
+.aula3{
+    display: flex;
+    flex-direction: column;
+   
+  
+}
+
+.quadrado-videos{
+   width: 462px;
+   height: 261px;
+   color: #8E8E8E;
+}
+
+.titulo{
+font-weight: 700;
+font-size: 35px;
+line-height: 40px;
+color: #FF4081;
+}
+
+.texto1{
+font-weight: 300;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+color: #000000;
+margin-top: 1%;
+}
+
+.video{
+    width: 350px;
+    height: 261px;
+    margin-top: 10%;
+    display: flex;
+}
+
+footer{
+    background-color:#2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    display: flex;
+    
+    }
+
+#logo-footer{
+    width: 280px;
+    height: 90px;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+footer li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    display: flex;
+    list-style: none;      
+    margin-top: 2%;
+    margin-left: 20%;
+    
+        }
+
+.botoes-footer{
+    box-sizing: border-box;
+    background: #2E948A;
+    width: 289px;
+    height: 51px;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;  
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF; 
+    margin-left: 90%;  
+    margin-top: 2%;
+    margin-bottom: 3%;
+       
+}
+
+#botao1{
+    margin-bottom: 1%;
+    align-items: flex-end; 
+    
+}
+
+@media (max-width:850px) {
+
+    *{
+        max-width: 850px;
+    }
+
+    header{
+        max width: 850px;       
+    }
+ 
+    main{
+        max-width: 850px;
+    }
+
+    .container-xadrez{
+        max-width: 850px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+
+   .primeira{
+    margin-left: 15%;
+   }
+
+   #img-xadrez{
+    margin-left: 15%;
+   }
+
+   .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        max-width: 850px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer li{
+        margin-left: 5%;
+    }
+    
+    .botoes-footer{
+     margin-left: 27%;
+    }
+    
+    #botao1{
+        text-align:center;
+    }
+    
+    }
+
+    @media (max-width:450px) {
+
+        *{
+            max-width: 450px;
+        }
+    
+        header{
+            max width: 450px;       
+        }
+        
+        #logo-header{
+           width: 25%;
+        }
+
+        nav ul li a{                    
+            font-size: 10px;
+            top: 5%;         
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+                  
+        #logo-footer{
+            width: 45%;
+            height: 20%;
+        }
+
+      
+        .botoes-footer{
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            width: 100px;
+            height: 25px;        
+            font-size: 10px;
+          
+        }
+
+        #botao1{
+            display: flex;
+            align-items: center;
+            
+        }

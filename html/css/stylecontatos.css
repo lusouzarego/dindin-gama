@@ -1,0 +1,294 @@
+*{
+    margin: 0%; 
+    padding: 0%;
+    @import: url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+}
+
+#logo{
+    padding: 15px 0px 15px 0px;
+}
+
+header{  
+    background-color:#2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+       }
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 30px;
+     
+}
+
+ul li a {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 45px;
+    right: 130px;
+   }
+
+
+.container-formulario{
+    display: flex;
+}
+
+.titulo-formulario{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;  
+    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 15%;
+
+}
+
+#nome-form{
+box-sizing: border-box;
+background: #FFFFFF;
+border: 1px solid #686868;
+border-radius: 7px;
+width: 493px;
+height: 32px;
+margin-bottom: 3%;
+margin-top: 35%;
+margin-left:-55%;
+
+}
+
+#email-form{
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    width: 493px;
+    height: 32px;
+    margin-bottom: 3%;
+    margin-left:-55%;
+}
+
+#mensagem{
+box-sizing: border-box;
+background: #FFFFFF;
+border: 1px solid #686868;
+border-radius: 7px;
+width: 493px;
+height: 193px;
+margin-left:-55%;
+}
+
+.botao-enviar{
+    background: #FF4081;
+    border-radius: 50px;
+    width: 108px;
+    height: 32px;
+    border: none;
+    font-weight: 800;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+text-transform: lowercase;
+color: #FFFFFF;
+margin-top: 26%;
+margin-left:-40%;
+
+}
+
+
+.imagem{
+    display: flex;
+    margin-left: 55%;
+    margin-top: -25%;
+    margin-bottom: 6%;
+}
+
+footer{
+    background-color:#2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    display: flex;
+    margin-top: 9%;
+    
+    }
+
+#logo-footer{
+    width: 280px;
+    height: 90px;
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+footer li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    display: flex;
+    list-style: none;      
+    margin-top: 2%;
+    margin-left: 20%;
+    
+        }
+
+.botoes-footer{
+    box-sizing: border-box;
+    background: #2E948A;
+    width: 289px;
+    height: 51px;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;  
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF; 
+    margin-left: 90%;  
+    margin-top: 2%;
+    margin-bottom: 3%;
+       
+}
+
+#botao1{
+    margin-bottom: 1%;
+    align-items: flex-end; 
+    
+}
+
+@media (max-width:850px){
+
+    *{
+        max-width: 850px;
+    }
+
+    header{
+        max-width:850px;       
+    }
+
+    main{
+        max-width: 850px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-formulario{
+        max-width: 850px;
+        display: flex;   
+        margin-left: 10%;         
+    }
+
+    #img-contatos{
+        margin-top: 55%;
+        margin-left: -55%;
+    }
+
+   .botao-enviar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55%;
+    margin-left: -88%;
+   }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        max-width: 850px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer li{
+        margin-left: 5%;
+    }
+    
+    .botoes-footer{
+     margin-left: 27%;
+    }
+    
+    #botao1{
+        text-align:center;
+    }
+
+}   
+    
+    
+
+    @media (max-width:450px) {
+
+        *{
+            max-width: 450px;
+        }
+    
+        header{
+            max-width: 450px;       
+        }
+        
+        #logo-header{
+           width: 25%;
+        }
+
+        nav ul li a{                    
+            font-size: 10px;
+            top: 5%;         
+        }
+
+        main{
+            max-width: 450px;
+        }
+
+        .container-formulario{
+            width: 150px;     
+            left: -50%;  
+             }
+
+             #img-contatos{
+                width: 260px;
+             }
+
+        .titulo-formulario{
+            font-size: 25px;
+            margin-left: -90%;
+        }
+
+        .botao-enviar{
+            width: 40%;
+            height: 25%;
+            font-size: 10px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 300%;
+            margin-left: -345%;
+        }
+                  
+        #logo-footer{
+            width: 45%;
+            height: 20%;
+        }
+
+      
+        .botoes-footer{
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            width: 100px;
+            height: 25px;        
+            font-size: 10px;
+         }
+
+        #botao1{
+            display: flex;
+            align-items: center;
+        }
+}
