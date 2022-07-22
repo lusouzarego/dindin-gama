@@ -181,7 +181,7 @@ footer li{
     }
 
     header{
-        max width: 850px;       
+        max-width: 850px;       
     }
 
    main{
@@ -232,7 +232,7 @@ footer li{
         }
     
         header{
-            max width: 450px;       
+            max-width: 450px;       
         }
         
         #logo-header{
@@ -244,9 +244,33 @@ footer li{
             top: 5%;         
         }
 
+       main{
+        max-width: 450px;
+        display: flex;
+        flex-direction: column;
+       }
 
+       .subtitulo{
+        font-size: 40px;
+       }
 
+       .container2{
+        max-width: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
 
+       #img-blog{
+        width: 250px;
+        height: 150px;
+       }
+
+    
+       #retangulo{
+        width: 350px;
+        height: 200px;
+       }
 
 
 
@@ -271,6 +295,7 @@ footer li{
 
         #botao1{
             display: flex;
-            align-items: center;
-            
+            align-items: center;           
         }
+
+    }       

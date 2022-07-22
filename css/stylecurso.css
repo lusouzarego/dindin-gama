@@ -185,7 +185,7 @@ footer li{
     }
 
     header{
-        max width: 850px;       
+        max-width: 850px;       
     }
  
     main{
@@ -242,7 +242,7 @@ footer li{
         }
     
         header{
-            max width: 450px;       
+            max-width: 450px;       
         }
         
         #logo-header{
@@ -254,18 +254,44 @@ footer li{
             top: 5%;         
         }
 
+        main{
+            max-width: 450px;
+            display: flex;
+            flex-direction: column;
+        }
 
+        .container-xadrez{
+            display: flex;
+            flex-direction: column;
+            max-width: 450px;
 
+        }
+        .subtitulo{
+            font-size: 30px;
+            max-width: 450px;
+            
+        }
 
+        .txt-subtitulo{
+            display: flex;
+            font-size: 12px;
+            margin-left: -15%;
+            max-width: 450px;
+        }
 
+      .primeira{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15%;
+        max-width: 450px;
+      }
 
-
-
-
-
-
-
-                  
+      #img-xadrez{
+        width: 260px;
+        height: 250px;
+        max-width: 450px;
+      }
+        
         #logo-footer{
             width: 45%;
             height: 20%;
@@ -287,3 +313,5 @@ footer li{
             align-items: center;
             
         }
+
+    }

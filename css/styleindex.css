@@ -345,8 +345,9 @@ footer li{
     margin-bottom: 1%;
     align-items: flex-end; 
     cursor: pointer;
-    
-}
+   }
+
+
 
 @media (max-width:850px) {
 
@@ -355,8 +356,7 @@ footer li{
     }
 
     header{
-        max width: 850px;
-        
+        max-width:850px;        
     }
 
     .container-principal{
@@ -429,7 +429,7 @@ footer li{
     }
 
     header{
-        max width: 450px;       
+        max-width: 450px;       
     }
     
     #logo-header{
@@ -441,29 +441,67 @@ footer li{
         top: 5%;         
     }
 
+    .titulo-cabeçalho{
+        font-size: 25px;
+        line-height: 85%;
+    }
 
+    .txt-cabecalho{
+        font-size: 20px;
+        margin-top: 1%;
+        line-height: 80%;
+        margin-bottom: 2%;
+    }
 
+    .bt-cabeçalho{
+        width: 40%;
+        height: 20%;
+        font-size: 15px;
+    }
 
+    .container1{
+        max-width: 450px;
+    }
 
+      
+    .test-img{
+        width: 20%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+    }
 
+    .grid{
+        display: flex;
+        flex-direction: column;
+        max-width: 450px;
+    }
 
+    #img-banner{
+        width: 80%;
+        height: 35%;
+    }
 
+   .parte3{
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+   }
 
+   .titulo-container3{
+    font-size: 25px;
+   }
 
+   .container3-itens{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+   .botao-container3{
+    width: 80%;
+    height: 20%;
+   }
               
     #logo-footer{
         width: 45%;
@@ -494,3 +532,4 @@ footer li{
 
 
 
+}

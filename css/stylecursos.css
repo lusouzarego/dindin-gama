@@ -210,7 +210,7 @@ footer li{
     }
 
     header{
-        max width: 850px;        
+        max-width: 850px;        
     }
  
     main{
@@ -264,7 +264,7 @@ footer li{
         }
     
         header{
-            max width: 450px;       
+            max-width: 450px;       
         }
         
         #logo-header{
@@ -276,16 +276,28 @@ footer li{
             top: 5%;         
         }
 
+        .titulo{
+            font-size: 45px;
+        }
 
+        .txt-subtitulo{
+            font-size: 25px;
+        }
 
+        #img-xadrez , #img-arvore , #img-trofeu{
+            width: 65%;
+            height: 50%;
+        }
 
+        main{
+            max-width: 450px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: -10%;
+        }
 
-
-
-
-
-
-                  
+                      
         #logo-footer{
             width: 45%;
             height: 20%;
@@ -307,3 +319,4 @@ footer li{
             align-items: center;
             
         }
+}

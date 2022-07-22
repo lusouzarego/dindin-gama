@@ -231,7 +231,7 @@ footer li{
     }
 
     header{
-        max width: 850px;       
+        max-width: 850px;       
     }
     
     .quad-cinza{
@@ -344,7 +344,7 @@ footer li{
         }
     
         header{
-            max width: 450px;       
+            max-width: 450px;       
         }
         
         #logo-header{
@@ -391,3 +391,4 @@ footer li{
             align-items: center;
             
         }
+    }       
